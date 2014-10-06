@@ -90,39 +90,6 @@
     </head>
     <body id="page">
     	<div id="pagecontainer">
-            <div id="header" class="black_gradient">
-                <a href="index.html" class="back_button black_button">Home</a>
-                <div class="page_title">Photos</div>
-                <a href="#" id="menu_open" class="black_button">Menu</a>
-                <a href="#" id="menu_close" class="black_button">Close</a>
-                <div class="clear"></div>
-            </div>
-            <div id="pages_nav">
-                <div class="icons_nav">
-                    <div class="paginated"> <!--Remove this DIV if you want to remove the pagination-->
-                        <ul class="slides">
-                            <li>
-                                <a href="about.html" class="icon">
-                                    <img src="images/icons/icon_about.png" alt="" title="" border="0" />
-                                    <span>About</span>
-                                </a>                                
-                                <a href="photos.html" class="icon">
-                                    <img src="images/icons/icon_photos.png" alt="" title="" border="0" />
-                                    <span>Photos</span>
-                                </a>
-                                <a href="photos-awards.html" class="icon">
-                                    <img src="images/icons/icon_portfolio.png" alt="" title="" border="0" />
-                                    <span>Awards</span>
-                                </a>
-                                <a href="contact.html" class="icon">
-                                    <img src="images/icons/icon_contact.png" alt="" title="" border="0" />
-                                    <span>Contact</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>  <!--Remove this DIV if you want to remove the pagination-->
-                </div>
-            </div>
         	<!-- Content -->
         	<div class="content">
 				<div class="toogle_wrap">
@@ -145,10 +112,6 @@
 					<div class="rg-thumbs">
 						<!-- Elastislide Carousel Thumbnail Viewer -->
 						<div class="es-carousel-wrapper">
-							<div class="es-nav">
-								<span class="es-nav-prev">Previous</span>
-								<span class="es-nav-next">Next</span>
-							</div>
 							<div class="es-carousel">
 								<ul>
                                     <li>
@@ -605,10 +568,15 @@
                 <div class="clear"></div>        
 	  		</div>
  		   	<div id="footer" class="black_gradient">
-        	    <a href="index.html" class="back_button black_button">Home</a>
-           		<div class="page_title">Pigs Can Fly</div>
-            	<a onClick="jQuery('html, body').animate( { scrollTop: 0 }, 'slow' );"  href="javascript:void(0);" id="top" class="black_button">Top</a>
-           		<div class="clear"></div>
+        	    <div class="icons_nav">
+                        <ul class="slides">
+                            <li>
+                                <a href="about.html" class="icon"><img src="images/icons/icon_about.png" alt="" width="80%" title="" border="0" /><span>About</span></a>                                
+                                <a href="photos.html" class="icon"><img src="images/icons/icon_photos.png" alt="" width="80%" title="" border="0" /><span>Photos</span></a>
+                                <a href="photos-awards.html" class="icon"><img src="images/icons/icon_portfolio.png" width="80%" alt="" title="" border="0" /><span>Awards</span></a>
+                                <a href="contact.html" class="icon"><img src="images/icons/icon_contact.png" alt="" width="80%" title="" border="0" /><span>Contact</span></a>
+                            </li>
+        </div>
 			</div>   
 		</div>
 	</body>
