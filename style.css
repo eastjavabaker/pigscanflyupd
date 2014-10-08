@@ -180,7 +180,7 @@ border:1px #291742 solid; cursor:pointer; font-size:20px;
 .icons_nav .slides li a{ float:left; margin:0 0 0 5%;padding:5% 0 0 0; font-size:15px; color:#FFFFFF; text-align:center; line-height:35px; width:19.5%;}
 .icons_nav .paginated {padding:0 0 0 4%; width:94%; margin: 0;}
 .icons_nav .paginated .slides li a{ float:left; margin:0 0 0 4%;padding:5% 0 0 0; font-size:15px; color:#FFFFFF; text-align:center; line-height:35px; width:18.5%;}
-.icons_nav .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.icons_nav .slides > li {display: block;} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .icons_nav .slides img {max-width: 100%; display: block;}
 .flex-pauseplay span {text-transform: capitalize;}
 
